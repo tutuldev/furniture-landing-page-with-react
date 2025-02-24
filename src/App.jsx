@@ -1,13 +1,15 @@
 import React from 'react';
 import './App.css'
 import './Index.css'
+import { Link, Outlet } from 'react-router-dom';
+import Navbar from './components/Navbar';
 
 const App = () => {
   return (
     <>
-      <h1 className='text-5xl font-primary text-red-500 font-bold text-center p-20'>Hellow Developers</h1>
-      <p className="text-primary text-5xl text-center">This is a custom text color!</p>
-
+    <Navbar/>
+     <Outlet></Outlet>
+     <footer>Footer</footer>
     </>
   );
 };
