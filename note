@@ -1,0 +1,12 @@
+// react icon ->
+// npm install react-icons --save
+
+// button press or not logic-->
+//  const [isKeyPress,setIsKeyPress]= useState("Lock");
+
+//     const KeyPress = ()=>{
+//         setIsKeyPress("Locked Open")
+//     }
+
+//     <p>{isKeyPress}</p>
+//     <button onClick={KeyPress}>Press  Button</button>
