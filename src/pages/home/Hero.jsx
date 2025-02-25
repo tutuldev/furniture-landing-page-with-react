@@ -26,6 +26,9 @@ const Hero = () => {
             <div className='hidden xl:block absolute bottom-40 left-24'>
             <TooltipButton position="bottom"/>
             </div>
+            <div className='hidden xl:block absolute top-40 left-24'>
+            <TooltipButton position="top"/>
+            </div>
         </section>
     );
 };
