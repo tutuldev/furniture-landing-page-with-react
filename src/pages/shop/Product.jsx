@@ -47,15 +47,15 @@ const Product = ({headline}) => {
                     }
                 </div>
 
-                {/* loadmore button  */}
+                {/* loadmore button */}
                 {
                     visiableProduct <filteredProduct.length && (
                         <div className='flex justify-center items-center mt-8'>
                             <button
                             onClick={loadMoreProducts}
                             className='text-base font-semibold text-primary flex items-center gap-1'>
-                                                    View All
-                                    <img src={btnIcon} alt="" />
+                                      View All
+                                    <img src={btnIcon} alt="arrow " />
                             </button>
                         </div>
                     )
