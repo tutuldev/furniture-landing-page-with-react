@@ -2,6 +2,7 @@ import React from 'react';
 import Hero from './Hero';
 import WhyChoose from './WhyChoose';
 import Product from '../shop/Product';
+import Expriences from './Expriences';
 
 const Home = () => {
     return (
@@ -9,6 +10,7 @@ const Home = () => {
             <Hero/>
             <WhyChoose/>
             <Product headline="Best Selling Product"/>
+            <Expriences/>
 
         </>
     );
