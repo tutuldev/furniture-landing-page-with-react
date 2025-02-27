@@ -3,6 +3,7 @@ import './App.css'
 import './Index.css'
 import { Link, Outlet } from 'react-router-dom';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
@@ -11,7 +12,7 @@ const App = () => {
     <main className='min-h-screen'>
     <Outlet/>
     </main>
-     <footer>Footer</footer>
+     <Footer/>
     </>
   );
 };
