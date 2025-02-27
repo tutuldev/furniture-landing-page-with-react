@@ -1,3 +1,4 @@
+
 @import "tailwindcss";
 
 @theme { 
@@ -9,6 +10,49 @@
 
     }
 
+
     .section-container{
      @apply max-w-screen-2xl container mx-auto py-6 px-4;
  }
+
+ /* .swiper-button-prev:after,
+ .swiper-button-next:after {
+   @apply px-4 py-2 ring-1 ring-primary hover:text-white hover:bg-primary rounded-full bg-white text-black text-lg ;
+ }
+   */
+   
+    /* cutom prev and after button  */
+
+   .swiper-button-prev,
+   .swiper-button-next {
+     width: 3rem !important;  /* নির্দিষ্ট করে চওড়া */
+     height: 3rem !important; /* নির্দিষ্ট করে লম্বা */
+     display: flex !important;
+     align-items: center !important;
+     justify-content: center !important;
+     border-radius: 50% !important; /* পারফেক্ট সার্কেল */
+     border: 1px solid var(--color-primary) !important; /* আউটলাইন */
+     background-color: white !important;
+     transition: all 0.3s ease-in-out !important;
+
+   }
+   
+   /* Swiper default icons */
+   .swiper-button-prev:after,
+   .swiper-button-next:after {
+     font-size: 1rem !important; /* আইকন ছোট করা */
+     color: black !important;
+   }
+   
+   /* Hover Effect */
+   .swiper-button-prev:hover,
+   .swiper-button-next:hover {
+     background-color: var(--color-primary) !important;
+   }
+   
+   .swiper-button-prev:hover:after,
+   .swiper-button-next:hover:after {
+     color: white !important;
+   }
+   
+   
